@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="src/css/estilos.css">
-  <link rel="stylesheet" type="text/css" href="src/css/index.css">
+  <link rel="stylesheet" type="text/css" href="src/css/index.css">  
 
 </head>
 
@@ -28,44 +28,72 @@
     </div>
 
     <section>
-      <form
-        class="w-[90%] h-full max-w-md bg-red-200 mx-auto py-16 px-6 flex flex-col gap-4 justify-center ">
-        <article>
-          <h2>Create an account</h2>
-          <p>Let's get started your 30 days free trial</p>
+      <form  
+        id="my-form"      
+        class="w-[90%] h-full max-w-md mx-auto py-16 px-6 flex flex-col gap-4 justify-center">
+
+        <article class="space-y-4 mb-8">
+          <h2 
+            class="text-3xl font-medium">
+            Create an account
+          </h2>
+          <p 
+            class="font-light text-zinc-600">
+            Let's get started your 30 days free trial
+          </p>
         </article>
 
-        <div>
+        <div class="grid">
           <label for="name">Name</label>
-          <input type="text" id="name">
+          <input 
+            type="text" 
+            id="name"
+            class="input-reset">
         </div>
 
-        <div>
+        <div class="grid">
           <label for="email">Email</label>
-          <input type="email" id="email">
+          <input 
+            type="email" 
+            id="email"
+            class="input-reset">
         </div>
 
-        <div>
+        <div class="grid">
           <label for="password">Password</label>
-          <input type="password" id="password">
+          <input 
+            type="password" 
+            id="password"
+            class="input-reset">
         </div>
 
-        <article>
-          <a href="#">
+        <article 
+          class="grid gap-6 mt=8">
+          <a 
+            href="#"
+            class="bg-black text-white text-center p-4 rounded-3xl hover:bg-white hover:text-black border hover:border-black transition-colors">
             Create Account
           </a>
 
-          <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <a 
+            href="#"
+            class="border border-black p-4 text-center rounded-3xl flex items-center justify-center gap-2 transition-colors hover:text-white hover:bg-black group">
+
+            <svg 
+              class="font-black group-hover:fill-white transition-colors"
+              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <path d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"></path>
             </svg>
             Sign up with Google
           </a>
         </article>
 
-        <p>
+        <p 
+          class="mt-6 text-center">
           Already have an account?
-          <a href="#">
+          <a 
+            href="#"
+            class="text-blue-400 text-lg inline-block ml-2">
             Sign in
           </a>
         </p>
@@ -74,5 +102,6 @@
   </main>
 
   <script src="./src/js/index.js"></script>
+
 </body>
 </html>
