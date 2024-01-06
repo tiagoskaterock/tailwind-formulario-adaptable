@@ -18,12 +18,8 @@
 
 ## Vista Previa
 
-<!--<p align="center">Vista en Escritorio</p>-->
-<!--<p align="center"><img src="desktop-preview.png" alt="Vista Previa" /></p>-->
-<!--<hr>-->
-
-<p align="center">Vista en Dispositivo Móvil</p>
-<p align="center"><img src="1.png" alt="Vista Previa" /></p>
+<p align="center">Vista Previa</p>
+<p align="center"><img src="1.gif" alt="Vista Previa" /></p>
 <hr>
 
 ## Instalación
