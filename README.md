@@ -1,46 +1,43 @@
-# 🌙 Tailwind Dashboard Dark Mode 🚀
+# 🌟 Formulario Adaptable 🚀
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=tailwind" alt="Dev icons" />
+  <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind Icon" />
 </p>
 
-## Overview
+## Visión General
 
-Welcome to this stylish dashboard created with Tailwind CSS! It's not just a dashboard; it's a dark-themed, customizable, and responsive wonderland for web applications.
+¡Bienvenido al proyecto Formulario Adaptable! Este proyecto tiene como objetivo ofrecer un formulario web adaptable, creado para ajustarse a diferentes dispositivos y tamaños de pantalla.
 
-## Features
+## Características
 
-- **Dark Mode Galore**: A sleek dark theme to save your eyes and add that touch of coolness.
-- **Responsive Awesomeness**: It adapts like a chameleon to fit any screen size.
-- **Customize All The Things**: Tailwind CSS makes it easy to tweak components to your heart's content.
-- **Organized & Expandable**: The modular structure keeps everything tidy and ready for your creativity.
-- **Utility Superpowers**: Tailwind CSS's utility classes speed up development like magic.
+- **Enfoque en la Adaptabilidad**: Un formulario que se ajusta armoniosamente a varios dispositivos y tamaños de pantalla.
+- **Personalizable y Versátil**: Ofrece opciones para personalizar los campos y el diseño según sus necesidades.
+- **Sencillo y Eficiente**: Un diseño minimalista para garantizar una experiencia de usuario fluida.
+- **Validación Integrada**: Incorpora validaciones para garantizar datos precisos y completos.
+- **Fácil Integración**: Puede integrarse fácilmente en otros proyectos o sitios web.
 
-## Preview
+<!--## Vista Previa-->
 
-<p align="center">Large Screen</p>
-<p align="center"><img src="1.gif" alt="Website" /></p>
-<hr>
+<!--<p align="center">Vista en Escritorio</p>-->
+<!--<p align="center"><img src="desktop-preview.png" alt="Vista Previa" /></p>-->
+<!--<hr>-->
 
-<p align="center">Medium Screen</p>
-<p align="center"><img src="2.gif" alt="Website" /></p>
-<hr>
+<!--<p align="center">Vista en Dispositivo Móvil</p>-->
+<!--<p align="center"><img src="mobile-preview.png" alt="Vista Previa" /></p>-->
+<!--<hr>-->
 
-<p align="center">Small Screen</p>
-<p align="center"><img src="3.gif" alt="Website" /></p>
-<hr>
+## Instalación
 
-## Installation
+1. Clona el repositorio en: https://github.com/tiagoskaterock/tailwind-formulario-adaptable)
+2. Ejecuta `npm install` para instalar las dependencias necesarias.
+2. Ejecuta `npm runtaildev` para actualizar Tailwind.
+3. Realiza las personalizaciones deseadas en los archivos.
+4. Integra el formulario adaptable en tu proyecto.
+5. ¡Experimenta y adáptalo según tus necesidades!
 
-1. Clone the repository: [Tailwind Dashboard Dark Mode](https://github.com/tiagoskaterock/tailwind-dashboard-darkmode)
-2. Run `npm install` to conjure up the necessary dependencies.
-3. Execute `npm run taildev` to wield Tailwind's dynamic classes.
-4. Open it up on your local machine and voilà!
-5. Oh, and don't forget to have fun! 🎉
+## ¿Necesitas Ayuda o Quieres Conversar?
 
-## Need Help or Wanna Chat?
+Si necesitas ayuda o quieres intercambiar ideas, ¡no dudes en ponerte en contacto! Estoy aquí para ayudar y aprender cosas nuevas:
 
-If you're lost in the dark or just want to share some bright ideas, feel free to reach out! I'm all ears for knowledge exchange and learning something new:
-
-📧 Email: tiagolemespalhano@gmail.com <br>
-🌐 Website: [cupcakessoft.com](https://cupcakesoft.com)
+📧 Correo Electrónico: tiagolemespalhano@gmail.com <br>
+🌐 Sitio Web: [cupcakesoft.com](https://cupcakesoft.com)
