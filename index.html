@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/tailwind.svg">
   
   <title>Formulario Adaptable</title>
 
@@ -13,19 +13,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="src/css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="src/css/index.css">
 
 </head>
 
-<body>
+<body 
+  class="h-screen">
 
-  <main>
-    <div>
-      
+  <main 
+    class="h-full grid max-w-screen-xl mx-auto">
 
+    <div
+      class="p-10 smile-image bg-cover bg-center hidden">      
     </div>
 
     <section>
-      <form>
+      <form
+        class="w-[90%] h-full max-w-md bg-red-200 mx-auto py-16 px-6 flex flex-col gap-4 justify-center ">
         <article>
           <h2>Create an account</h2>
           <p>Let's get started your 30 days free trial</p>
